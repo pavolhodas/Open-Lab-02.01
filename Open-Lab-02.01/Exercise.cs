@@ -7,13 +7,7 @@ namespace Open_Lab_02._01
 
         public double[] Create5Numbers()
         {
-            double[] numbers = new double[5];
-            numbers[0] = 4;
-            numbers[1] = 6;
-            numbers[2] = 8;
-            numbers[3] = 10;
-            numbers[4] = 12;
-            Console.WriteLine(numbers);
+            double[] numbers = new double[5] {4, 6, 8, 10, 12 };
             return numbers;
         }
 
